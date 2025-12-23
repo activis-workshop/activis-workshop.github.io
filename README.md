@@ -1,3 +1,4 @@
 # activis-workshop.github.io.git
 
-For ActiVis Workshop!
+Website for "Bridging Vision, Language, and Action: What's Missing in Actionable Visual Perception for Robotics" Workshop, CVPR 2026.
+

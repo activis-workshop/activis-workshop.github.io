@@ -16,6 +16,17 @@ html, body {
     overflow-x: hidden;
 }
 
+.title-button {
+    background-color: whitesmoke;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+
+.section-header {
+    !important;font-size: 2.5rem;
+    !important;margin-bottom: 36px;
+}
+
 .page-header1 {
     position: relative;
     /*background-image: url('./data/CVPR_Denver_2026.jpg');*/

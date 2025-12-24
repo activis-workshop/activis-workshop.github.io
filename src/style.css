@@ -1,3 +1,7 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
 .page-header1 {
     position: relative;
     /*background-image: url('./data/CVPR_Denver_2026.jpg');*/

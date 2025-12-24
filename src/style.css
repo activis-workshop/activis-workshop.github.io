@@ -17,9 +17,13 @@ html, body {
 }
 
 .title-button {
-    background-color: whitesmoke;
     border-radius: 6px;
     margin-right: 8px;
+    background-color: whitesmoke;
+}
+
+.title-button:hover {
+    background-color: white;
 }
 
 .section-header {

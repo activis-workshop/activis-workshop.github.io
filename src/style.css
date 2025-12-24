@@ -2,6 +2,20 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.fixed-header {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .page-header1 {
     position: relative;
     /*background-image: url('./data/CVPR_Denver_2026.jpg');*/

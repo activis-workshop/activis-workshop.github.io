@@ -32,14 +32,14 @@ html, body {
 
 .section-header {
     font-size: 2.5rem;
-    /*font-weight: bold;*/
+    font-weight: bold;
     margin-bottom: 36px;
 }
 
 .page-header1 {
     position: relative;
-    /*background-image: url('./data/CVPR_Denver_2026.jpg');*/
-    background-color: #003163;
+    background-image: url('../img/teaser.jpg');
+    /*background-color: #003163;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -126,6 +126,29 @@ html, body {
 .organizer-affiliation {
     font-size: 0.8rem;
     color: #666;
+    line-height: 1.2;
+    min-height: 34px;
+}
+
+
+.speaker-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #222;
+    margin-bottom: 0.25rem;
+}
+
+.speaker-affiliation {
+    font-size: 1.0rem;
+    color: #666;
+    line-height: 1.2;
+    min-height: 34px;
+}
+
+.speaker-title {
+    font-size: 1.0rem;
+    /*font-weight: 600;*/
+    color: #333;
     line-height: 1.2;
     min-height: 34px;
 }

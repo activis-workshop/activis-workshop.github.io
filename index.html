@@ -21,10 +21,10 @@
             <div class="navbar-brand" >
                 <a href="#overview" class="navbar-item fixed-item">Overview</a>
                 <a href="#topics" class="navbar-item fixed-item">Topics</a>
-                <a href="#speakers" class="navbar-item fixed-item">Speakers</a>
-                <a href="#organizers" class="navbar-item fixed-item">Organizers</a>
-                <a href="#schedule" class="navbar-item fixed-item">Schedule</a>
                 <a href="#call_for_papers" class="navbar-item fixed-item">Call for Papers</a>
+                <a href="#speakers" class="navbar-item fixed-item">Speakers</a>
+                <a href="#schedule" class="navbar-item fixed-item">Schedule</a>
+                <a href="#organizers" class="navbar-item fixed-item">Organizers</a>
             </div>
         </div>
     </nav>
@@ -34,11 +34,7 @@
     <div class="hero-body">
         <div class="container is-max-desktop">
             <div class="columns is-centered">
-                <div class="column has-text-centered">
-                    <br>
-                    <br>
-                    <br>
-
+                <div class="column has-text-centered" style="padding-top: 100px;">
                     <h1 class="title is-1 publication-title" style="color:#fffffe;">
                         Bridging Vision, Language, and Action: What's Missing in Actionable Visual Perception for Robotics
                     </h1>
@@ -52,8 +48,9 @@
 
                     <br>
                     <h2 class="subtitle has-text-centered">
-                        <a href="#call_for_papers" class="button title-button" style="color: #2663eb;">Submit Paper</a>
-                        <a href="#overview" class="button title-button">Learn More</a>
+                        <a href="https://openreview.net/" target="_blank" class="button title-button" style="color: #2663eb;">
+                            Submission Portal
+                        </a>
                     </h2>
                 </div>
             </div>
@@ -83,7 +80,7 @@
     </div>
 </section>
 
-<section class="section" id="topics">
+<section class="section" id="topics" style="background: #f4f6f8;">
     <div style="text-align: center">
         <h2 class="section-header">Topics</h2>
     </div>
@@ -142,185 +139,243 @@
     </div>
 </section>
 
-<section class="section" id="speakers" style="margin-top:-50px">
+<section class="section" id="call_for_papers">
+    <div style="text-align: center">
+        <h2 class="section-header">Call for Papers</h2>
+    </div>
+
+    <div class="container is-max-desktop content">
+        <h3>Submission Instructions</h3>
+
+        <p>We welcome submissions covering:</p>
+
+        <ul>
+            <li>
+                Research papers: Long papers (8 pages) showcasing novel findings, methods, or theoretical advancements.
+            </li>
+            <li>
+                Short/Abstract papers: Features exploratory work (4 pages or 2 pages excluding references) that may be preliminary but presents innovative concepts, early results, or thought-provoking viewpoints that stimulate discussion and future work.
+            </li>
+            <li>
+                Position papers: Offer critical perspectives on trends and challenges within the filed (no less than 8 pages).
+            </li>
+            <li>
+                Survey papers: Provide thorough reviews of specific topics, mapping the current research landscape and suggesting directions for future exploration (no less than 8 pages).
+            </li>
+        </ul>
+
+        <p>All formats allow unlimited references and appendices.</p>
+
+        <p>
+            Contributions will be non-archival but hosted on our workshop website, and thus dual submission is allowed where permitted by third parties.
+            We welcome submissions that are under submission or accepted by other conferences. Please mention it in the last sentence of the paper abstract if your paper has been under submission or accepted by other conferences.
+        </p>
+
+        <p>
+            Submissions should follow CVPR two-column style and be anonymous; see the <a href="https://github.com/cvpr-org/author-kit/releases" target="_blank">CVPR-26 author kit</a> for details. Please submit through <a href="https://openreview.net/" target="_blank">OpenReview submission portal</a>.
+        </p>
+    </div>
+
+    <div class="container is-max-desktop content">
+        <h3>Entry and Important Dates</h3>
+
+        <ul style="margin-left: 20px;">
+            <li><b>Submission Portal</b>: OpenReview
+            <li><b>Submission Start Date</b>: March 9th, 2026</li>
+            <li><b>Submission Deadline</b>: May 4th, 2026 (23:59PM AOE)</li>
+            <li><b>Notification to Authors</b>: May 18th, 2026 (23:59PM AOE)</li>
+            <li><b>Camera-ready Due (non-archival)</b>: May 25th, 2026 (23:59PM AOE)</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section" id="speakers" style="background: #f4f6f8;">
     <div style="text-align: center">
         <h2 class="section-header">Invited Speakers</h2>
     </div>
 
     <div class="container is-max-desktop content">
-        <a href="https://people.eecs.berkeley.edu/~malik/" target="_blank">
-            <div class="card">
-                <div class="card-content">
-                    <div class="columns is-vcentered">
-                        <div class="column is-one-quarter">
-                            <figure class="image is-128x128">
-                                <img class="is-rounded" src="./img/jitendra_malik.jpg" alt="Invited Speaker: Jitendra Malik">
-                            </figure>
-                        </div>
-                        <div class="column">
-                            <p class="title is-4">Jitendra Malik</p>
-                            <p class="subtitle is-6">University of California, Berkeley</p>
-                            <p class="subtitle is-7">
-                                Jitendra Malik is the Arthur J. Chick Professor of Electrical Engineering and Computer Sciences at the University of
-                                California, Berkeley, and serves as VP of Robotics Research at Meta AI Research (FAIR). Prof. Malik is a preeminent leader in
-                                computer vision and machine learning. His research focuses on enabling machines to see and understand the visual world,
-                                spanning topics from image segmentation and object recognition to computational modeling of human vision and robotics.
-                            </p>
-                        </div>
+        <div class="columns is-centered is-variable is-2 is-multiline has-text-centered">
+            <div class="column is-one-third">
+                <a href="https://people.eecs.berkeley.edu/~malik/" target="_blank">
+                    <div class="organizer-card">
+                        <img class="organizer-photo" src="./img/jitendra_malik.jpg" alt="Invited Speaker: Jitendra Malik">
+                        <p class="speaker-name">Jitendra Malik</p>
+                        <p class="speaker-affiliation">University of California, Berkeley</p>
+                        <p class="speaker-title">Professor</p>
                     </div>
-                </div>
+                </a>
             </div>
-        </a>
 
-        <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">
-            <div class="card">
-                <div class="card-content">
-                    <div class="columns is-vcentered">
-                        <div class="column is-one-quarter">
-                            <figure class="image is-128x128">
-                                <img class="is-rounded" src="./img/chelsea_finn.jpg" alt="Invited Speaker: Chelsea Finn">
-                            </figure>
-                        </div>
-                        <div class="column">
-                            <p class="title is-4">Chelsea Finn</p>
-                            <p class="subtitle is-6">Stanford University</p>
-                            <p class="subtitle is-7">
-                                Chelsea Finn is an Assistant Professor in Computer Science and Electrical Engineering at Stanford University and
-                                co-founder of Pi. Prof. Finn is a leader in robotics and machine learning, with a focus on meta-learning, reinforcement
-                                learning, and robot learning. Her work involves enabling robots to adapt to new tasks with minimal supervision, emphasizing
-                                generalization and learning from experience. Specifically, she has worked on vision-based learning and robotic control, with
-                                groundbreaking contributions to learning from demonstrations, self-supervised learning, and sim-to-real transfer in robotics.
-                            </p>
-                        </div>
+            <div class="column is-one-third">
+                <a href="https://stanfordasl.github.io//people/prof-marco-pavone/" target="_blank">
+                    <div class="organizer-card">
+                        <img class="organizer-photo" src="./img/pavone.jpg" alt="Invited Speaker: Marco Pavone">
+                        <p class="speaker-name">Marco Pavone</p>
+                        <p class="speaker-affiliation">Stanford University</p>
+                        <p class="speaker-title">Associate Professor</p>
                     </div>
-                </div>
+                </a>
             </div>
-        </a>
 
-        <a href="https://stanfordasl.github.io//people/prof-marco-pavone/" target="_blank">
-            <div class="card">
-                <div class="card-content">
-                    <div class="columns is-vcentered">
-                        <div class="column is-one-quarter">
-                            <figure class="image is-128x128">
-                                <img class="is-rounded" src="./img/pavone.jpg" alt="Invited Speaker: Marco Pavone">
-                            </figure>
-                        </div>
-                        <div class="column">
-                            <p class="title is-4">Marco Pavone</p>
-                            <p class="subtitle is-6">Stanford University</p>
-                            <p class="subtitle is-7">
-                                Marco Pavone is an Associate Professor at the Department of
-                                Aeronautics and Astronautics Professor in Stanford University. Prof. Pavone is an expert in
-                                autonomous systems with a focus on robotic planning, multi-agent systems, and autonomous
-                                vehicles. His research includes motion planning, trajectory optimization, and robotic control. He
-                                also works on integrating vision-based perception with actionable robotic control, particularly for
-                                robotic navigation and interaction with the environment.
-                            </p>
-                        </div>
+            <div class="column is-one-third">
+                <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">
+                    <div class="organizer-card">
+                        <img class="organizer-photo" src="./img/chelsea_finn.jpg" alt="Invited Speaker: Chelsea Finn">
+                        <p class="speaker-name">Chelsea Finn</p>
+                        <p class="speaker-affiliation">Stanford University</p>
+                        <p class="speaker-title">Assistant Professor</p>
                     </div>
-                </div>
+                </a>
             </div>
-        </a>
+        </div>
 
-        <a href="https://lepora.com/" target="_blank">
-            <div class="card">
-                <div class="card-content">
-                    <div class="columns is-vcentered">
-                        <div class="column is-one-quarter">
-                            <figure class="image is-128x128">
-                                <img class="is-rounded" src="./img/lepora.jpg" alt="Invited Speaker: Nathan F. Lepora ">
-                            </figure>
-                        </div>
-                        <div class="column">
-                            <p class="title is-4">Nathan F. Lepora</p>
-                            <p class="subtitle is-6">University of Bristol</p>
-                            <p class="subtitle is-7">
-                                Nathan F. Lepora is a Professor of Robotics and AI at the University of Bristol. His
-                                research focuses on embodied cognition, robot touch, and haptic feedback in robotic systems.
-                                His work explores how robots can combine visual and tactile sensing to enhance their
-                                interactions with the environment and improve actionable decision-making.
-                            </p>
-                        </div>
+        <div class="columns is-centered is-variable is-2 is-multiline has-text-centered">
+            <div class="column is-one-third">
+                <a href="https://lepora.com/" target="_blank">
+                    <div class="organizer-card">
+                        <img class="organizer-photo" src="./img/lepora.jpg" alt="Invited Speaker: Nathan F. Lepora">
+                        <p class="speaker-name">Nathan F. Lepora</p>
+                        <p class="speaker-affiliation">University of Bristol</p>
+                        <p class="speaker-title">Professor of Robotics & AI</p>
                     </div>
-                </div>
+                </a>
             </div>
-        </a>
 
-        <a href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en" target="_blank">
-            <div class="card">
-                <div class="card-content">
-                    <div class="columns is-vcentered">
-                        <div class="column is-one-quarter">
-                            <figure class="image is-128x128">
-                                <img class="is-rounded" src="./img/mingyu_liu.jpg"
-                                     alt="Invited Speaker: Mingyu Liu ">
-                            </figure>
-                        </div>
-                        <div class="column">
-                            <p class="title is-4">Ming-Yu Liu</p>
-                            <p class="subtitle is-6">NVIDIA Research</p>
-                            <p class="subtitle is-7">
-                                Ming-Yu Liu is a Vice President of Research at NVIDIA and an IEEE Fellow.
-                                He leads the Deep Imagination Research group and the NVIDIA Cosmos effort,
-                                where the team aim to advance Generative AI for Physical AI — building world foundation models that
-                                allow machines not just to perceive the world, but to simulate, reason about, and interact with it.
-                            </p>
-                        </div>
+            <div class="column is-one-third">
+                <a href="https://mingyuliu.net/" target="_blank">
+                    <div class="organizer-card">
+                        <img class="organizer-photo" src="./img/mingyu_liu.jpg" alt="Invited Speaker: Mingyu Liu">
+                        <p class="speaker-name">Ming-Yu Liu</p>
+                        <p class="speaker-affiliation">NVIDIA Research</p>
+                        <p class="speaker-title">Vice President of Research</p>
                     </div>
-                </div>
+                </a>
             </div>
-        </a>
 
-        <a href="https://ruoshiliu.github.io/" target="_blank">
-            <div class="card">
-                <div class="card-content">
-                    <div class="columns is-vcentered">
-                        <div class="column is-one-quarter">
-                            <figure class="image is-128x128">
-                                <img class="is-rounded" src="./img/ruoshi_liu.jpg"
-                                     alt="Invited Speaker: Ruoshi Liu ">
-                            </figure>
-                        </div>
-                        <div class="column">
-                            <p class="title is-4">Ruoshi Liu</p>
-                            <p class="subtitle is-6">Amazon Frontier AI & Robotics (FAR)</p>
-                            <p class="subtitle is-7">
-                                He is a Research Scientist at Amazon Frontier AI & Robotics (FAR) and an incoming Assistant Professor in the
-                                Computer Science Department at University of Maryland, College Park.
-                                Dr. Liu's research goal is to develop intelligent systems that can interact with the physical world.
-                                Breaking this down, his work tackles three fundamental aspects of this goal:
-                                (a) Learning the action-perception prior; (b) Physically grounding; and (c) Learning from Real-World Interaction.
-                            </p>
-                        </div>
+            <div class="column is-one-third">
+                <a href="https://ruoshiliu.github.io/" target="_blank">
+                    <div class="organizer-card">
+                        <img class="organizer-photo" src="./img/ruoshi_liu.jpg" alt="Invited Speaker: Ruoshi Liu">
+                        <p class="speaker-name">Ruoshi Liu</p>
+                        <p class="speaker-affiliation">Amazon Frontier AI & Robotics (FAR)</p>
+                        <p class="speaker-title">Research Scientist</p>
                     </div>
-                </div>
+                </a>
             </div>
-        </a>
-
-<!--        <div class="card">-->
-<!--            <div class="card-content">-->
-<!--                <div class="columns is-vcentered">-->
-<!--                    <div class="column is-one-quarter">-->
-<!--                        <figure class="image">-->
-<!--                            <img class="" src="./img/white.png" width="128px" height="32px" alt="Invited Speaker: More">-->
-<!--                        </figure>-->
-<!--                    </div>-->
-<!--                    <div class="column">-->
-<!--                        <p class="title is-4"></p>-->
-<!--                        <p class="subtitle is-6">More to be added later.</p>-->
-<!--                        <p class="subtitle is-7">-->
-<!--                        </p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
+        </div>
     </div>
 </section>
 
+<section class="section" id="schedule">
+    <div style="text-align: center">
+        <h2 class="section-header">Schedule</h2>
+    </div>
 
-<section class="section" id="organizers">
+    <div class="container is-max-desktop content">
+        <p>
+            To encourage open-ended discussion and maximize in-person engagement, the workshop will
+            feature a mix of structured and interactive formats.
+        </p>
+        <ul>
+            <li>
+                Keynote sessions will consist of 40-minute presentations followed by 5-minute Q&A
+                segments, providing speakers with the opportunity to engage directly with attendees.
+            </li>
+            <li>
+                Poster sessions and Coffee breaks will showcase recent advancements and novel
+                research while also serving as a platform for networking and idea exchange among
+                researchers from diverse backgrounds and career stages.
+            </li>
+            <li>
+                Panel discussion will incorporate live polling and audience-submitted questions, fostering
+                dynamic and meaningful dialogue. We will invite leading researchers from both
+                academia and industry to participate in a debate on the most promising directions for
+                future research in embodied AI from a computer vision perspective.
+            </li>
+        </ul>
+
+        <p>
+            These interactive elements are designed to stimulate lively exchanges, bridge the gap between
+            junior and senior researchers, and cultivate an open, inclusive research community.
+        </p>
+
+        <table>
+            <tr>
+                <th style="min-width: 125px">Time</th>
+                <th style="min-width: 200px">Talk</th>
+                <th>Tentative Topics</th>
+            </tr>
+            <tr>
+                <td>8:50 – 9:00</td>
+                <td>Opening Remarks</td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td>9:00 – 9:45</td>
+                <td>Keynote Talk 1</td>
+                <td>Topics in Data Curation & Synthesis for Embodied AI, Q&A.</td>
+            </tr>
+            <tr>
+                <td>9:45 – 10:30</td>
+                <td>Keynote Talk 2</td>
+                <td>Topics in Data Curation & Synthesis for Embodied AI, Q&A.</td>
+            </tr>
+            <tr>
+                <td>10:30 – 10:45</td>
+                <td>Coffee Break & Posters</td>
+                <td>Informal networking.</td>
+            </tr>
+            <tr>
+                <td>10:45 – 11:30</td>
+                <td>Keynote Talk 3</td>
+                <td>Topics in Physics-Informed Vision Models Design, Q&A.</td>
+            </tr>
+            <tr>
+                <td>11:30 – 12:00</td>
+                <td>Panel Discussion</td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td>12:00 – 14:00</td>
+                <td>Lunch Break </td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td>14:00 – 14:45</td>
+                <td>Keynote Talk 4</td>
+                <td>Topics in Training Strategies and Optimization, Q&A.</td>
+            </tr>
+            <tr>
+                <td>14:45 – 15:30</td>
+                <td>Keynote Talk 5</td>
+                <td>Topics in Training Strategies and Optimization, Q&A.</td>
+            </tr>
+            <tr>
+                <td>15:30 – 15:45</td>
+                <td>Coffee Break & Posters</td>
+                <td>Informal networking.</td>
+            </tr>
+            <tr>
+                <td>15:45 – 16:30</td>
+                <td>Keynote Talk 6</td>
+                <td>Topics in Model Evaluation & Verification, Q&A.</td>
+            </tr>
+            <tr>
+                <td>16:30 – 17:00</td>
+                <td>Panel Discussion</td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td>17:00 – 17:10</td>
+                <td>Closing remarks</td>
+                <td> - </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section class="section" id="organizers" style="background: #f4f6f8;">
     <div style="text-align: center">
         <h2 class="section-header">Organizers</h2>
     </div>
@@ -463,182 +518,15 @@
 </section>
 
 
-<section class="section" id="schedule">
-    <div style="text-align: center">
-        <h2 class="section-header">Schedule</h2>
-    </div>
-
-    <div class="container is-max-desktop content">
-        <p>
-            To encourage open-ended discussion and maximize in-person engagement, the workshop will
-            feature a mix of structured and interactive formats.
-        </p>
-        <ul>
-            <li>
-                Keynote sessions will consist of 40-minute presentations followed by 5-minute Q&A
-                segments, providing speakers with the opportunity to engage directly with attendees.
-            </li>
-            <li>
-                Poster sessions and Coffee breaks will showcase recent advancements and novel
-                research while also serving as a platform for networking and idea exchange among
-                researchers from diverse backgrounds and career stages.
-            </li>
-            <li>
-                Panel discussion will incorporate live polling and audience-submitted questions, fostering
-                dynamic and meaningful dialogue. We will invite leading researchers from both
-                academia and industry to participate in a debate on the most promising directions for
-                future research in embodied AI from a computer vision perspective.
-            </li>
-        </ul>
-
-        <p>
-            These interactive elements are designed to stimulate lively exchanges, bridge the gap between
-            junior and senior researchers, and cultivate an open, inclusive research community.
-        </p>
-
-        <table>
-            <tr>
-                <th style="min-width: 125px">Time</th>
-                <th style="min-width: 200px">Talk</th>
-                <th>Tentative Topics</th>
-            </tr>
-            <tr>
-                <td>8:50 – 9:00</td>
-                <td>Opening Remarks</td>
-                <td> - </td>
-            </tr>
-            <tr>
-                <td>9:00 – 9:45</td>
-                <td>Keynote Talk 1</td>
-                <td>Topics in Data Curation & Synthesis for Embodied AI, Q&A.</td>
-            </tr>
-            <tr>
-                <td>9:45 – 10:30</td>
-                <td>Keynote Talk 2</td>
-                <td>Topics in Data Curation & Synthesis for Embodied AI, Q&A.</td>
-            </tr>
-            <tr>
-                <td>10:30 – 10:45</td>
-                <td>Coffee Break & Posters</td>
-                <td>Informal networking.</td>
-            </tr>
-            <tr>
-                <td>10:45 – 11:30</td>
-                <td>Keynote Talk 3</td>
-                <td>Topics in Physics-Informed Vision Models Design, Q&A.</td>
-            </tr>
-            <tr>
-                <td>11:30 – 12:00</td>
-                <td>Panel Discussion</td>
-                <td> - </td>
-            </tr>
-            <tr>
-                <td>12:00 – 14:00</td>
-                <td>Lunch Break </td>
-                <td> - </td>
-            </tr>
-            <tr>
-                <td>14:00 – 14:45</td>
-                <td>Keynote Talk 4</td>
-                <td>Topics in Training Strategies and Optimization, Q&A.</td>
-            </tr>
-            <tr>
-                <td>14:45 – 15:30</td>
-                <td>Keynote Talk 5</td>
-                <td>Topics in Training Strategies and Optimization, Q&A.</td>
-            </tr>
-            <tr>
-                <td>15:30 – 15:45</td>
-                <td>Coffee Break & Posters</td>
-                <td>Informal networking.</td>
-            </tr>
-            <tr>
-                <td>15:45 – 16:30</td>
-                <td>Keynote Talk 6</td>
-                <td>Topics in Model Evaluation & Verification, Q&A.</td>
-            </tr>
-            <tr>
-                <td>16:30 – 17:00</td>
-                <td>Panel Discussion</td>
-                <td> - </td>
-            </tr>
-            <tr>
-                <td>17:00 – 17:10</td>
-                <td>Closing remarks</td>
-                <td> - </td>
-            </tr>
-        </table>
-    </div>
-</section>
-
-
-<section class="section" id="call_for_papers">
-    <div style="text-align: center">
-        <h2 class="section-header">Call for Papers</h2>
-    </div>
-
-    <div class="container is-max-desktop content">
-        <h3>Submission Instructions</h3>
-
-        <p>We welcome submissions covering:</p>
-
-        <ul>
-            <li>
-                Research papers: Long papers (8 pages) showcasing novel findings, methods, or theoretical advancements.
-            </li>
-            <li>
-                Short/Abstract papers: Features exploratory work (4 pages or 2 pages excluding references) that may be preliminary but presents innovative concepts, early results, or thought-provoking viewpoints that stimulate discussion and future work.
-            </li>
-            <li>
-                Position papers: Offer critical perspectives on trends and challenges within the filed (no less than 8 pages).
-            </li>
-            <li>
-                Survey papers: Provide thorough reviews of specific topics, mapping the current research landscape and suggesting directions for future exploration (no less than 8 pages).
-            </li>
-        </ul>
-
-        <p>All formats allow unlimited references and appendices.</p>
-
-        <p>
-            Contributions will be non-archival but hosted on our workshop website, and thus dual submission is allowed where permitted by third parties.
-            We welcome submissions that are under submission or accepted by other conferences. Please mention it in the last sentence of the paper abstract if your paper has been under submission or accepted by other conferences. Paper awards will prefer the original submissions.
-        </p>
-
-        <p>
-            Submissions should follow CVPR two-column style and be anonymous; see the <a href="https://github.com/cvpr-org/author-kit/releases" target="_blank">CVPR-26 author kit</a> for details. Please submit through <a href="https://openreview.net/" target="_blank">OpenReview submission portal</a>.
-        </p>
-    </div>
-
-    <div class="container is-max-desktop content">
-        <h3>Entry and Important Dates</h3>
-        <ul style="margin-left: 20px;">
-            <li><b>Submission Portal</b>: OpenReview
-            <li><b>Submission Start Date</b>: March 9th, 2026</li>
-            <li><b>Submission Deadline</b>: May 4th, 2026 (23:59PM AOE)</li>
-            <li><b>Notification to Authors</b>: May 18th, 2026 (23:59PM AOE)</li>
-            <li><b>Camera-ready Due (non-archival)</b>: May 25th, 2026 (23:59PM AOE)</li>
-        </ul>
-    </div>
-</section>
-
-
-<section class="section" id="committee">
-    <div style="text-align: center">
-        <h2 class="section-header">Program Committees</h2>
-        Upcoming
-    </div>
-
-    <div class="container is-max-desktop content">
-    </div>
-</section>
-
-
 <footer class="footer" style="padding: 1.8rem 1.6rem 2.0rem;">
     <div class="container is-max-desktop">
         <div class="content">
             <p>
-                Contact: <a href="mailto:jiaweima@cityu.edu.hk">jiaweima@cityu.edu.hk</a>
-                <br><br>
+                Lead Contacts: Jiawei MA, Chengzhi MAO
+                <br>
+                Email: <a href="mailto:activis.workshop@gmail.com">activis.workshop@gmail.com</a>
+            </p>
+            <p>
                 This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
                 Commons Attribution-ShareAlike 4.0 International License</a>.
                 <br>

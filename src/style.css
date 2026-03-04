@@ -38,12 +38,13 @@ html, body {
 
 .page-header1 {
     position: relative;
-    background-image: url('../img/teaser.jpg');
+    background-image: url('../img/teaser.png');
     /*background-color: #003163;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
 }
 
 .page-header1::before {
@@ -92,6 +93,22 @@ html, body {
     display: block;
 }
 
+.aspect-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.aspect-dimension {
+    min-height: 100px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.aspect-stage {
+    min-height: 200px;
+}
 
 /* Modern, clean style for organizers */
 .organizer-card {

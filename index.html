@@ -34,7 +34,7 @@
     <div class="hero-body">
         <div class="container is-max-desktop">
             <div class="columns is-centered">
-                <div class="column has-text-centered" style="padding-top: 100px;">
+                <div class="column has-text-centered">
                     <h1 class="title is-1 publication-title" style="color:#fffffe;">
                         Bridging Vision, Language, and Action: What's Missing in Actionable Visual Perception for Robotics
                     </h1>
@@ -48,7 +48,7 @@
 
                     <br>
                     <h2 class="subtitle has-text-centered">
-                        <a href="https://openreview.net/" target="_blank" class="button title-button" style="color: #2663eb;">
+                        <a href="https://openreview.net/" target="_blank" class="button title-button" style="color: #2663eb; font-weight: bold;">
                             Submission Portal
                         </a>
                     </h2>
@@ -92,40 +92,120 @@
                 communities, moving beyond mere model deployment to pioneer new paradigms of task-driven,
                 co-designed perception-action loops. Our central focus is on discussing what are the critical
                 challenges of translating rich visual signals into precise, safe, and actionable control commands
-                that enable robots to interact intelligently and reliably with the physical world. To ground this
-                mission, we will explore cutting-edge applications across three key interactive dimensions:
+                that enable robots to interact intelligently and reliably with the physical world.
             </p>
-            <ul>
-                <li>What visual capability is most urgently needed for fully autonomous systems</li>
-                <li>What can the vision community contribute towards developing general-purpose robotic systems</li>
-                <li>What data modality is most helpful in pretraining for generalizable, robust robot control</li>
-            </ul>
+
+            <p>
+                To ground this mission, we will explore cutting-edge applications across three key interactive dimensions:
+            </p>
+
+            <div class="container is-max-desktop content">
+                <div class="columns is-centered is-variable is-2 is-multiline">
+                    <div class="column is-one-third ">
+                        <div class="aspect-card aspect-dimension">
+                            <p>
+                                What visual capability is most urgently needed for fully autonomous systems
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="column is-one-third ">
+                        <div class="aspect-card aspect-dimension">
+                            <p>
+                                What can the vision community contribute towards developing general-purpose robotic systems
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="column is-one-third ">
+                        <div class="aspect-card aspect-dimension">
+                            <p>
+                                What data modality is most helpful in pretraining for generalizable, robust robot control
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
             <p>
                 Moving from what to how, we will dissect the entire technical pipeline to address concrete
                 challenges at every stage:
             </p>
-            <ul>
-                <li>
-                    Data: What is the gap in data curation & synthesis for robots and vision? How to move
-                    beyond curated static data to collecting data rich in physical interactions, failures, and
-                    multi-modal sensors, with documentation on edge cases to teach models about risks.
-                </li>
-                <li>
-                    Model: Does robotics need physics-informed and physics-grounded vision models?
-                    Designing networks that inherently reason about physical properties, 3D geometry, and
-                    differentiable cause-effect relationships, as well as potential actions.
-                </li>
-                <li>
-                    Optimization: Developing methods that embed safety constraints, task-level rewards,
-                    and uncertainty quantification directly into the learning objective.
-                </li>
-                <li>
-                    Evaluation: What type of system-level evaluation can be established from the vision
-                    community? Establishing new metrics and benchmarks that measure real-world task
-                    success, robustness to edge cases, and overall system reliability—not just offline score.
-                </li>
-            </ul>
+
+            <div class="container is-max-desktop content">
+                <div class="columns is-centered is-variable is-2 is-multiline">
+                    <div class="column is-half ">
+                        <div class="aspect-card aspect-stage" style="background: rgba(24, 116, 152, 0.35);">
+                            <h4>Data</h4>
+                            <p>
+                                What is the gap in data curation & synthesis for robots and vision? How to move
+                                beyond curated static data to collecting data rich in physical interactions, failures, and
+                                multi-modal sensors, with documentation on edge cases to teach models about risks.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="aspect-card aspect-stage" style="background: rgba(235, 83, 83, 0.35);">
+                            <h4>Model</h4>
+                            <p>
+                                Does robotics need physics-informed and physics-grounded vision models?
+                                Designing networks that inherently reason about physical properties, 3D geometry, and
+                                differentiable cause-effect relationships, as well as potential actions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container is-max-desktop content">
+                    <div class="columns is-centered is-variable is-2 is-multiline">
+                        <div class="column is-half">
+                            <div class="aspect-card aspect-stage" style="background: rgba(249, 217, 35, 0.35);">
+                                <h4>Optimization</h4>
+                                <p>
+                                    Developing methods that embed safety constraints, task-level rewards,
+                                    and uncertainty quantification directly into the learning objective.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="column is-half">
+                            <div class="aspect-card aspect-stage" style="background: rgba(54, 174, 124, 0.35);">
+                                <h4>Evaluation</h4>
+                                <p>
+                                    What type of system-level evaluation can be established from the vision
+                                    community? Establishing new metrics and benchmarks that measure real-world task
+                                    success, robustness to edge cases, and overall system reliability—not just offline score.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    Data: What is the gap in data curation & synthesis for robots and vision? How to move-->
+<!--                    beyond curated static data to collecting data rich in physical interactions, failures, and-->
+<!--                    multi-modal sensors, with documentation on edge cases to teach models about risks.-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    Model: Does robotics need physics-informed and physics-grounded vision models?-->
+<!--                    Designing networks that inherently reason about physical properties, 3D geometry, and-->
+<!--                    differentiable cause-effect relationships, as well as potential actions.-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    Optimization: Developing methods that embed safety constraints, task-level rewards,-->
+<!--                    and uncertainty quantification directly into the learning objective.-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    Evaluation: What type of system-level evaluation can be established from the vision-->
+<!--                    community? Establishing new metrics and benchmarks that measure real-world task-->
+<!--                    success, robustness to edge cases, and overall system reliability—not just offline score.-->
+<!--                </li>-->
+<!--            </ul>-->
+
             <p>
                 By connecting high-level application goals with low-level implementation details, this workshop
                 will catalyze the design of actionable visual perception, and consequently the development of
@@ -383,7 +463,7 @@
     <div class="container is-max-desktop content">
         <div class="columns is-centered is-variable is-2 is-multiline has-text-centered">
             <div class="column is-one-fifth">
-                <a href="https://www.cs.cityu.edu.hk/~jiaweima/">
+                <a href="https://www.cs.cityu.edu.hk/~jiaweima/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/jiawei_ma.jpg" alt="Organizer: Jiawei Ma" class="organizer-photo">
                         <p class="organizer-name">Jiawei Ma</p>
@@ -393,7 +473,7 @@
             </div>
 
             <div class="column is-one-fifth">
-                <a href="https://chengzhi-mao.github.io/">
+                <a href="https://chengzhi-mao.github.io/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/chengzhi_mao.png" alt="Organizer: Chengzhi Mao" class="organizer-photo">
                         <p class="organizer-name">Chengzhi Mao</p>
@@ -403,7 +483,7 @@
             </div>
 
             <div class="column is-one-fifth">
-                <a href="https://www.mmu.ac.uk/staff/profile/dr-peng-wang">
+                <a href="https://www.mmu.ac.uk/staff/profile/dr-peng-wang" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/peng_wang.jpg" alt="Organizer: Peng Wang" class="organizer-photo">
                         <p class="organizer-name">Peng Wang</p>
@@ -413,7 +493,7 @@
             </div>
 
             <div class="column is-one-fifth">
-                <a href="https://baoru.netlify.app/">
+                <a href="https://baoru.netlify.app/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/baoru_huang.jpg" alt="Organizer: Baoru Huang" class="organizer-photo">
                         <p class="organizer-name">Baoru Huang</p>
@@ -423,7 +503,7 @@
             </div>
 
             <div class="column is-one-fifth">
-                <a href="https://cgi.csc.liv.ac.uk/~anguyen/">
+                <a href="https://cgi.csc.liv.ac.uk/~anguyen/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/anh_nguyen.png" alt="Organizer: Anh Nguyen" class="organizer-photo">
                         <p class="organizer-name">Anh Nguyen</p>
@@ -433,7 +513,7 @@
             </div>
 
             <div class="column is-one-fifth">
-                <a href="https://zt-yang.com/">
+                <a href="https://zt-yang.com/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/zhutian_yang.jpg" alt="Organizer: " class="organizer-photo">
                         <p class="organizer-name">Zhutian Yang</p>
@@ -443,7 +523,7 @@
             </div>
 
             <div class="column is-one-fifth">
-                <a href="https://kaichun-mo.github.io/">
+                <a href="https://kaichun-mo.github.io/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/kaichun_mo.jpg" alt="Organizer: Kaichun Mo" class="organizer-photo">
                         <p class="organizer-name">Kaichun Mo</p>
@@ -453,7 +533,7 @@
             </div>
 
             <div class="column is-one-fifth">
-                <a href="https://lepora.com/">
+                <a href="https://lepora.com/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/lepora.jpg" alt="Organizer: Nathan Lepora" class="organizer-photo">
                         <p class="organizer-name">Nathan Lepora</p>
@@ -463,7 +543,7 @@
             </div>
 
             <div class="column is-one-fifth">
-                <a href="https://boleizhou.github.io/">
+                <a href="https://boleizhou.github.io/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/bolei_zhou.jpg" alt="Organizer: " class="organizer-photo">
                         <p class="organizer-name">Bolei Zhou</p>
@@ -485,7 +565,7 @@
         <div class="columns is-centered is-variable is-2 is-multiline has-text-centered">
 
             <div class="column is-one-fifth">
-                <a href="https://yuiz.github.io/">
+                <a href="https://yuiz.github.io/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/yu_zhang.jpg" alt="Student Organizer: Yu Zhang" class="organizer-photo">
                         <p class="organizer-name">Yu Zhang</p>
@@ -495,7 +575,7 @@
             </div>
 
             <div class="column is-one-fifth">
-                <a href="https://chenjoya.github.io/">
+                <a href="https://chenjoya.github.io/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/joya_chen.png" alt="Student Organizer: Joya Chen" class="organizer-photo">
                         <p class="organizer-name">Joya Chen</p>
@@ -505,7 +585,7 @@
             </div>
 
             <div class="column is-one-fifth">
-                <a href="https://wenliangguo.github.io/">
+                <a href="https://wenliangguo.github.io/" target="_blank">
                     <div class="organizer-card">
                         <img src="./img/wenliang_guo.png" alt="Student Organizer: Wenliang Guo" class="organizer-photo">
                         <p class="organizer-name">Wenliang Guo</p>
@@ -527,7 +607,7 @@
                 Email: <a href="mailto:activis.workshop@gmail.com">activis.workshop@gmail.com</a>
             </p>
             <p>
-                This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                This website is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative
                 Commons Attribution-ShareAlike 4.0 International License</a>.
                 <br>
                 It borrows the source code of <a href="https://github.com/e2e3d/e2e3d.github.io">this website</a>.

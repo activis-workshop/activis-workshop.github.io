@@ -155,3 +155,26 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+/* customized ul under topics */
+.aspect-ul {
+    margin-left: 0!important;
+}
+
+.aspect-ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 1.0em;
+    color: #4a5568;
+}
+
+.aspect-ul li::before {
+    content: "›";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: #7a7a7a; /* 符号颜色：科技蓝 */
+    font-size: 1.2em;
+    line-height: 1.5;
+}

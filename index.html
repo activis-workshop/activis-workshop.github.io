@@ -48,9 +48,9 @@
 
                     <br>
                     <h2 class="subtitle has-text-centered">
-                        <a href="https://openreview.net/" target="_blank" class="button title-button" style="color: #2663eb; font-weight: bold;">
-                            Submission Portal
-                        </a>
+<!--                        <a href="https://openreview.net/" target="_blank" class="button title-button" style="color: #2663eb; font-weight: bold;">-->
+<!--                            Submission Portal-->
+<!--                        </a>-->
                     </h2>
                 </div>
             </div>
@@ -67,15 +67,34 @@
     <div class="container is-max-desktop content">
         <div class="content has-text-justified">
             <p>
-                Vision foundation models are trained on passive data, encoding the world as pixels or linguistic
-                tokens. Robots, in contrast, must reason about physically-grounded quantities like 6D pose,
-                dynamics, and affordances. This workshop forges a bidirectional co-design channel to translate
-                perceptual abstractions into actionable structures for control and planning. We will explore two
-                key directions: (vision-to-robotics) defining novel model outputs linked to robot-centric visual
-                semantics, and (robotics-to-vision) learning control-ready representations that directly interface
-                with planning and motor controllers. Our goal is to close the loop from pixels to torque, enabling
-                a new generation of task-hardened, physically-aware AI for robotics.
+                This workshop bridges the critical gap between passive vision foundation models and physically-grounded robotics, moving beyond mere deployment to pioneer task-driven, co-designed perception-action loops. By fostering a bidirectional dialogue, we aim to translate high-level visual abstractions into precise, safe, and actionable control commands—effectively closing the loop from "pixels to torque." Our ultimate goal is to align vision architectures with physical constraints and dynamics, enabling the development of robust, physically-aware AI systems ready for reliable real-world interaction.
             </p>
+<!--            <p>-->
+<!--                Vision foundation models are trained on passive data, encoding the world as pixels or linguistic-->
+<!--                tokens. Robots, in contrast, must reason about physically-grounded quantities like 6D pose,-->
+<!--                dynamics, and affordances. This workshop forges a bidirectional co-design channel to translate-->
+<!--                perceptual abstractions into actionable structures for control and planning. We will explore two-->
+<!--                key directions: (vision-to-robotics) defining novel model outputs linked to robot-centric visual-->
+<!--                semantics, and (robotics-to-vision) learning control-ready representations that directly interface-->
+<!--                with planning and motor controllers. Our goal is to close the loop from pixels to torque, enabling-->
+<!--                a new generation of task-hardened, physically-aware AI for robotics.-->
+<!--            </p>-->
+<!--            <p>-->
+<!--                This workshop is designed to forge a crucial bridge between the robotics and computer vision-->
+<!--                communities, moving beyond mere model deployment to pioneer new paradigms of task-driven,-->
+<!--                co-designed perception-action loops. Our central focus is on discussing what are the critical-->
+<!--                challenges of translating rich visual signals into precise, safe, and actionable control commands-->
+<!--                that enable robots to interact intelligently and reliably with the physical world.-->
+<!--            </p>-->
+<!--            <p>-->
+<!--                By connecting high-level application goals with low-level implementation details, this workshop-->
+<!--                will catalyze the design of actionable visual perception, and consequently the development of-->
+<!--                robust, reliable, and real-world-ready robotic systems. The ultimate objective is to foster a deep,-->
+<!--                two-way dialogue: enabling vision researchers to incorporate robotic context and constraints-->
+<!--                directly into their model design and training, while empowering roboticists to better understand,-->
+<!--                trust, and effectively deploy these advanced vision models for diagnosis, adaptation, and-->
+<!--                successful real-world integration.-->
+<!--            </p>-->
         </div>
     </div>
 </section>
@@ -87,24 +106,17 @@
 
     <div class="container is-max-desktop content">
         <div class="content has-text-justified">
-            <p>
-                This workshop is designed to forge a crucial bridge between the robotics and computer vision
-                communities, moving beyond mere model deployment to pioneer new paradigms of task-driven,
-                co-designed perception-action loops. Our central focus is on discussing what are the critical
-                challenges of translating rich visual signals into precise, safe, and actionable control commands
-                that enable robots to interact intelligently and reliably with the physical world.
-            </p>
 
-            <p>
-                To ground this mission, we will explore cutting-edge applications across three key interactive dimensions:
-            </p>
+            <h3>
+                Interactive Dimensions
+            </h3>
 
             <div class="container is-max-desktop content">
                 <div class="columns is-centered is-variable is-2 is-multiline">
                     <div class="column is-one-third ">
                         <div class="aspect-card aspect-dimension">
                             <p>
-                                What visual capability is most urgently needed for fully autonomous systems
+                                What visual capability is needed for fully autonomous systems
                             </p>
                         </div>
                     </div>
@@ -112,7 +124,7 @@
                     <div class="column is-one-third ">
                         <div class="aspect-card aspect-dimension">
                             <p>
-                                What can the vision community contribute towards developing general-purpose robotic systems
+                                How can the vision community contribute to general-purpose robotic systems
                             </p>
                         </div>
                     </div>
@@ -120,7 +132,7 @@
                     <div class="column is-one-third ">
                         <div class="aspect-card aspect-dimension">
                             <p>
-                                What data modality is most helpful in pretraining for generalizable, robust robot control
+                                What data modality is critical for generalizable, robust robot control
                             </p>
                         </div>
                     </div>
@@ -128,31 +140,30 @@
                 </div>
             </div>
 
-            <p>
-                Moving from what to how, we will dissect the entire technical pipeline to address concrete
-                challenges at every stage:
-            </p>
+            <h3>
+                Stage-Wise Challenges
+            </h3>
 
             <div class="container is-max-desktop content">
                 <div class="columns is-centered is-variable is-2 is-multiline">
                     <div class="column is-half ">
-                        <div class="aspect-card aspect-stage" style="background: rgba(24, 116, 152, 0.1); border: solid 1px rgba(24, 116, 152, 0.1);">
+                        <div class="aspect-card aspect-stage" style="background: rgba(144, 197, 236, 0.15); border: solid 1px rgba(144, 197, 236, 0.15);">
                             <h4>Data</h4>
                             <ul class="aspect-ul">
-                                <li>Moving from static image datasets to dynamic logs with multi-modal feedback.</li>
-                                <li>Systematically collecting failure modes and edge cases to teach models about risk.</li>
-                                <li>Leveraging simulation to generate physically accurate data for the "sim-to-real" gap.</li>
+                                <li>Dynamic logs with multi-modal feedback.</li>
+                                <li>Teaching models about risk.</li>
+                                <li>Physically accurate data for the "sim-to-real" gap.</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="column is-half">
-                        <div class="aspect-card aspect-stage" style="background: rgba(235, 83, 83, 0.1); border: solid 1px rgba(235, 83, 83, 0.1);">
+                        <div class="aspect-card aspect-stage" style="background: rgba(255, 107, 107, 0.15); border: solid 1px rgba(255, 107, 107, 0.15);">
                             <h4>Model</h4>
                             <ul class="aspect-ul">
-                                <li>Designing architectures that reason about 3D geometry and physical dynamics.</li>
-                                <li>Moving beyond correlation to understand differentiable cause-effect relationships.</li>
-                                <li>Creating representations conditioned on potential actions, not just passive observation.</li>
+                                <li>3D geometry and physical dynamics.</li>
+                                <li>Differentiable cause-effect relationships.</li>
+                                <li>Conditioned representations over passive observation.</li>
                             </ul>
                         </div>
                     </div>
@@ -161,39 +172,29 @@
                 <div class="container is-max-desktop content">
                     <div class="columns is-centered is-variable is-2 is-multiline">
                         <div class="column is-half">
-                            <div class="aspect-card aspect-stage" style="background: rgba(249, 217, 35, 0.1); border: solid 1px rgba(249, 217, 35, 0.1);">
+                            <div class="aspect-card aspect-stage" style="background: rgba(255, 217, 61, 0.15); border: solid 1px rgba(255, 217, 61, 0.15);">
                                 <h4>Optimization</h4>
                                 <ul class="aspect-ul">
-                                    <li>Embedding safety guarantees and stability directly into the learning objective.</li>
-                                    <li>Shifting targets from pixel reconstruction to downstream task success.</li>
-                                    <li>Estimating model confidence for safe real-world deployment.</li>
+                                    <li>Safety and stability in the learning objective.</li>
+                                    <li>Downstream task success.</li>
+                                    <li>Model confidence for safe real-world deployment.</li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="column is-half">
-                            <div class="aspect-card aspect-stage" style="background: rgba(54, 174, 124, 0.1);border: solid 1px rgba(54, 174, 124, 0.1);">
+                            <div class="aspect-card aspect-stage" style="background: rgba(107, 203, 199, 0.15);border: solid 1px rgba(107, 203, 199, 0.15);">
                                 <h4>Evaluation</h4>
                                 <ul class="aspect-ul">
-                                    <li>Transitioning from static scores to closed-loop performance.</li>
-                                    <li>Benchmarking reliability against environmental variability and edge cases.</li>
-                                    <li>Prioritizing physical task completion and safe interaction over perceptual precision.</li>
+                                    <li>Closed-loop performance.</li>
+                                    <li>Reliability against environmental variability.</li>
+                                    <li>Physical task completion and safe interaction.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <p>
-                By connecting high-level application goals with low-level implementation details, this workshop
-                will catalyze the design of actionable visual perception, and consequently the development of
-                robust, reliable, and real-world-ready robotic systems. The ultimate objective is to foster a deep,
-                two-way dialogue: enabling vision researchers to incorporate robotic context and constraints
-                directly into their model design and training, while empowering roboticists to better understand,
-                trust, and effectively deploy these advanced vision models for diagnosis, adaptation, and
-                successful real-world integration.
-            </p>
         </div>
     </div>
 </section>
@@ -231,7 +232,8 @@
         </p>
 
         <p>
-            Submissions should follow CVPR two-column style and be anonymous; see the <a href="https://github.com/cvpr-org/author-kit/releases" target="_blank">CVPR-26 author kit</a> for details. Please submit through <a href="https://openreview.net/" target="_blank">OpenReview submission portal</a>.
+            Submissions should follow CVPR two-column style and be anonymous; see the <a href="https://github.com/cvpr-org/author-kit/releases" target="_blank">CVPR-26 author kit</a> for details.
+<!--            Please submit through <a href="https://openreview.net/" target="_blank">OpenReview submission portal</a>.-->
         </p>
     </div>
 
@@ -239,7 +241,7 @@
         <h3>Entry and Important Dates</h3>
 
         <ul style="margin-left: 20px;">
-            <li><b>Submission Portal</b>: OpenReview
+            <li><b>Submission Portal</b>: OpenReview link will be updated soon
             <li><b>Submission Start Date</b>: March 9th, 2026</li>
             <li><b>Submission Deadline</b>: May 4th, 2026 (23:59PM AOE)</li>
             <li><b>Notification to Authors</b>: May 18th, 2026 (23:59PM AOE)</li>

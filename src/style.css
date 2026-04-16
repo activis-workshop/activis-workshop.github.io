@@ -24,10 +24,12 @@ html, body {
     border-radius: 6px;
     margin-right: 8px;
     background-color: whitesmoke;
+    font-weight: bold;
 }
 
 .title-button:hover {
     background-color: white;
+    color: #2663eb;
 }
 
 .section-header {
@@ -111,7 +113,21 @@ html, body {
     min-height: 165px;
 }
 
-/* Modern, clean style for organizers */
+/* Modern, clean style for people */
+.speaker-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s ease-in-out;
+    min-height: 330px;
+}
+
+.speaker-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
 .organizer-card {
     background: #fff;
     border-radius: 12px;
@@ -125,7 +141,7 @@ html, body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
-.organizer-photo {
+.people-photo {
     width: 140px;
     height: 140px;
     border-radius: 50%;
@@ -151,9 +167,8 @@ html, body {
 
 .speaker-name {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #222;
-    margin-bottom: 0.25rem;
 }
 
 .speaker-affiliation {
@@ -170,14 +185,14 @@ html, body {
 }
 
 @media screen and (max-width: 1024px) {
-    .organizer-photo {
+    .people-photo {
         width: 120px;
         height: 120px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .organizer-photo {
+    .people-photo {
         width: 100px;
         height: 100px;
     }
